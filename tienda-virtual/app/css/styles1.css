@@ -1,0 +1,128 @@
+body{
+  background-color: #f2f4f4;
+
+}
+
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#above{
+  width: 100%;
+  margin-top: -14px;
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+
+
+.nav_links{
+  list-style: none;
+}
+
+.nav_links li{
+  display: inline-block;
+  padding: 0px 9px 0px 11px;
+}
+
+
+
+.wbox{
+  background-color: white;
+  padding: 35px 35px;
+  border-radius: 5%;
+}
+.wbox-prod{
+  background-color: white;
+  padding: 10px 10px;
+  border-radius: 5%;
+}
+
+
+.wbox-applewatch{
+  background-color: white;
+  padding: 35px 35px;
+  border-radius: 5%;
+  margin: 25px 25px;
+}
+
+.wbox-h{
+
+  background-color: rgb(65, 32, 32);
+  padding: 10px 10px;
+  border-radius: 5%;
+}
+
+.wbox-large {
+  background-color: f2f4f4;
+  padding: 35px 35px;
+  border-radius: 1%;
+}
+
+.push{
+  margin-top: 2rem;
+}
+
+
+.whitecontainer{
+  background-color: white;
+  overflow: hidden;
+  
+}
+
+
+img{
+  overflow: hidden;
+  max-width: 100%;
+}
+
+
+
+.carousel{
+  height: 600px;
+  
+}
+
+.carousel .carousel-item{
+  width: 600px;
+
+}
+
+
+
+table{
+  margin-top: 17px;
+}
+
+.dinamic{
+  margin-top: 5rem;
+}
+
+.background-logo{
+  position: absolute;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+.up_down{
+  display:flex;
+  flex-direction: column;
+}
+
+
+
+.botones{
+  display:flex;
+  flex-direction: row;
+}
+
